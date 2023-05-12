@@ -1,0 +1,256 @@
+html {
+    background-color:deepskyblue;
+}
+
+body {
+    font-family:fantasy;
+    font-size: 87%;
+}   
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position:relative;
+    
+    
+}
+
+.image-banner img {
+    display:block;
+}
+
+.banner-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color:chocolate;
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color:darkgreen;
+}
+/* End Banner Overlay */
+
+
+.container {
+    max-width:  940px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:whitesmoke;
+    padding-left:40px;
+    padding-right: 40px;
+    box-sizing:border-box;
+}
+
+/*Form Styles*/
+form {
+    background-color:bisque;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position:absolute;
+    height:0;
+    width:0;
+    overflow:hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"], select {
+    width:100%;
+    display:block;
+    box-sizing:border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: Tahoma, sans-serif;
+    font-size:  100%;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+input, select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+input[type="email"]:focus, input [type="password"]:focus {
+    border: 1px gray;
+}
+
+input[type="submit"] {
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    color:black;
+    padding:10px 0;
+    border: 1px solid plum;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid whitesmoke;
+    background-color:aquamarine;
+}
+/* End form styles*/
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:100;
+}
+table th {
+    text-align: left;
+    background-color: lightpink;
+    color:darkorchid;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+table th, table td {
+    border:1px solid rebeccapurple;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color:lightpink;
+}
+
+table th:nth-child(2), table th:nth-child(3),
+table td:nth-child(2), table td:nth-child(3) {
+    text-align:center;
+}
+
+.col-name {
+    width:60%;
+}
+
+.col-animal, .col-debut {
+    width:20%;
+}
+/* End Table Styles*/
+
+header {
+    padding-top:20px;
+    padding-bottom:20px;
+    color:deeppink;
+}
+
+header h1 {
+    margin:0;
+    font-weight:normal;
+    font-size: 165%;
+}
+
+header p{
+    margin:0;
+}
+
+.content-area {
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+
+.main {
+    width: 70%;
+    float:left;
+    padding-right: 40px;
+    box-sizing:border-box;
+}
+
+.support {
+    width: 30%;
+    float:left;
+    background-color:salmon;
+    padding-left: 40px;
+    padding-right:40px;
+    box-sizing:border-box;
+    font-size: 85%;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    
+}
+
+.fix {
+    clear:both;
+}
+
+p {
+    color:blueviolet
+}
+
+footer p {
+    color:black;
+    text-align:center;
+    font-size:  81%;
+    color:blue;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h1 {
+    color:deeppink;
+    text-align: center;
+    font-size:165%;
+    font-weight:normal;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+header p{
+    color:deeppink;
+}
+
+aside {
+    color:deeppink;
+}
+
+header p span {
+    color:deeppink;
+}
+
+.highlight {
+    color:blue;
+    background-color:yellow;
+}
+
+
+.brand-color {
+    color:red;
+    background-color:chartreuse;
+}
+/* Site Navigation*/
+.site-nav li {
+    list-style:none;
+    float:left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin:0;
+    padding:0;
+}
+
+.site-nav {
+    margin-top:20px;
+}
+
+.site-nav a {
+    text-decoration:none;
+    color:darkmagenta;
+    padding: 10px 20px;
+    border: 3px solid darkslateblue;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color:cornflowerblue;
+}
+/* End of Site Navigation*/
+
